@@ -1,0 +1,10 @@
+#ignore all files
+*
+
+#Don't ignore these dot files
+!/.zshrc
+!/.Xresources
+!/.i3/*
+!/.vimrc
+!/.vim/*
+!/.gitignore
