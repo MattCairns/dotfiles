@@ -2,23 +2,22 @@ URxvt*font: 		xft:Ubuntu Mono derivative Powerline:pixelsize=15
 URxvt*boldFont: 	xft:Ubuntu Mono derivative Powerline:pixelsize=15
 URxvt*scrollBar: 	false
 
-!Base 16 Chalk
-#define base00 #151515
-#define base01 #202020
-#define base02 #303030
-#define base03 #505050
-#define base04 #b0b0b0
-#define base05 #d0d0d0
-#define base06 #e0e0e0
-#define base07 #f5f5f5
-#define base08 #fb9fb1
-#define base09 #eda987
-#define base0A #ddb26f
-#define base0B #acc267
-#define base0C #12cfc0
-#define base0D #6fc2ef
-#define base0E #e1a3ee
-#define base0F #deaf8f
+#define base00 #2d2d2d
+#define base01 #393939
+#define base02 #515151
+#define base03 #747369
+#define base04 #a09f93
+#define base05 #d3d0c8
+#define base06 #e8e6df
+#define base07 #f2f0ec
+#define base08 #f2777a
+#define base09 #f99157
+#define base0A #ffcc66
+#define base0B #99cc99
+#define base0C #66cccc
+#define base0D #6699cc
+#define base0E #cc99cc
+#define base0F #d27b53
 
 *.foreground:   base05
 *.background:   base00
@@ -34,11 +33,10 @@ URxvt*scrollBar: 	false
 *.color7:       base05
 
 *.color8:       base03
-*.color9:       base08
-*.color10:      base0B
-*.color11:      base0A
-*.color12:      base0D
-*.color13:      base0E
-*.color14:      base0C
-*.color15:      base07
-
+*.color9:       base09
+*.color10:      base01
+*.color11:      base02
+*.color12:      base04
+*.color13:      base06
+*.color14:      base0F
+*.color15: 	base07
