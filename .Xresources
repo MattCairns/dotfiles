@@ -40,3 +40,8 @@ URxvt*scrollBar: 	false
 *.color13:      base06
 *.color14:      base0F
 *.color15: 	base07
+
+!Enables opening URLs with mouse
+URxvt.perl-exit-common: default,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
