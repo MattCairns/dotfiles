@@ -2,10 +2,11 @@ snippet sig "MRC Signature"
 /**
   * Name: Matthew Cairns
   * Date: `date +'%d-%b-%Y %T'`
-  * Filename: 
-  * Description: ${VISUAL}${0}
+  * Filename: $1 
+  * Description: $2 
   *
 **/
+
 endsnippet
 
 snippet main "main()"
@@ -16,6 +17,6 @@ int main(int argc, char * argv[])
 }
 endsnippet
 
-snippet stdio
-#include <stdio.h>
+snippet inc
+#include <${1:stdio.h}>
 endsnippet

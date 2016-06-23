@@ -44,7 +44,7 @@ URxvt*scrollBar: 	false
 
 !Enables opening URLs with mouse
 URxvt.perl-ext-common: default,matcher
-URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.url-launcher: firefox 
 URxvt.matcher.button: 1
 ! ------------------------------------------------------------------------------
 ! ROFI Color theme
