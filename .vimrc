@@ -6,3 +6,5 @@ set background=dark
 colorscheme hybrid
 set number
 syntax on
+
+:imap jj <Esc>
