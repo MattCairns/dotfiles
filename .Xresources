@@ -1,5 +1,6 @@
+
 URxvt*font: 		xft:Ubuntu Mono derivative Powerline:pixelsize=15
-URxvt*boldFont: 	xft:Ubuntu Mono derivative Powerline:pixelsize=15
+URxvt*boldFont: xft:Ubuntu Mono derivative Powerline:pixelsize=15
 URxvt*scrollBar: 	false
 
 #define base00 #2d2d2d
