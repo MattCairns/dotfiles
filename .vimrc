@@ -7,6 +7,8 @@ colorscheme hybrid
 set number
 syntax on
 
+set autoindent
+
 :imap jj <Esc>
 
 let g:UltiSnipsExpandTrigger="<tab>"
