@@ -1,8 +1,8 @@
 snippet sig "MRC Signature"
 /**
-  * Name: Matthew Cairns
+  * Author: Matthew Cairns
   * Date: `date +'%d-%b-%Y %T'`
-  * Filename: $1 
+  * Filename: `!p snip.rv = fn` 
   * Description: $2 
   *
 **/
@@ -19,4 +19,8 @@ endsnippet
 
 snippet inc
 #include <${1:stdio.h}>
+endsnippet
+
+snippet pf
+printf($1);
 endsnippet
