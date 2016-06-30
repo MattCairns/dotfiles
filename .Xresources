@@ -1,7 +1,10 @@
-
-URxvt*font: 		xft:Ubuntu Mono derivative Powerline:pixelsize=15
-URxvt*boldFont: xft:Ubuntu Mono derivative Powerline:pixelsize=15
+!URxvt*font: 		xft:Terminus:size=12,xft:Inconsolata\ for\ Powerline:size=12
+!URxvt*boldFont:		xft:Terminus:size=12,xft:Inconsolata\ for\ Powerline:size=12
 URxvt*scrollBar: 	false
+URxvt*font:		xft:Ubuntu Mono derivative Powerline:pixelsize=15,xft:Source Han Sans KR, Normal:antialias=false
+URxvt*boldFont: 	xft:Ubuntu Mono derivative Powerline:pixelsize=15,xft:Source Han Sans KR, Normal:antialias=false
+URxvt*letterSpace: 	0
+URxvt*allow_bold: 	true
 
 #define base00 #2d2d2d
 #define base01 #393939
