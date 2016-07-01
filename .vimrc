@@ -3,7 +3,7 @@ syntax on
 filetype plugin indent on
 
 set background=dark
-colorscheme hybrid
+colorscheme dracula
 set number
 syntax on
 
