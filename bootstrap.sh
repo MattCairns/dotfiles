@@ -1,6 +1,6 @@
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files=".vim .zshrc .vimrc .config .vimperatorrc .gtkrc-2.0 .compton.sh .Xresources"        # list of files/folders to symlink in homedir
+files=".vim .zshrc .vimrc .config .vimperatorrc .gtkrc-2.0 .compton.conf .Xresources"        # list of files/folders to symlink in homedir
 
 ##########
 
