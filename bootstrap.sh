@@ -21,10 +21,3 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/$file
 done
-
-source ~/.zshrc
-source ~/.vimperatorrc
-source ~/.htkrc-2.0
-source ~/.Xresources
-source ~/.compton.conf
-source ~/.vimrc
