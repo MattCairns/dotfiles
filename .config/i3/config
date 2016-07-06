@@ -167,6 +167,6 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
-exec compton --no-startup-id -CGb
+#exec --no-startup-id compton --config ~/.compton.conf -b --vsync opengl
 exec_always feh --bg-scale /home/matt/Pictures/desktop.jpg
 
