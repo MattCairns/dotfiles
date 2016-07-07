@@ -1,3 +1,5 @@
 .config/dconf/
 .config/xfce4/
 .config/Thunar/
+.config/freshwrapper-data/
+.config/youtube-viewer/
