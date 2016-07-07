@@ -1,2 +1,4 @@
 set gui=nonavigation
 :imap jj <Esc> 
+noremap l gt
+noremap h gT
