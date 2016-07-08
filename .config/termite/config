@@ -1,5 +1,6 @@
 [options]
 font = Source Code Pro for Powerline 10
+
 [colors]
 # Base16 Eighties
 # Scheme: Chris Kempson (http://chriskempson.com)
