@@ -6,12 +6,12 @@ font pango:System San Francisco Display 9
 
 #COLORS
 hide_edge_borders both
-#new_window 1pixel
+new_window 1pixel
 
 
 #alexbooker i3 colors
 set $base00 #101218
-set $base01 #2d2d2d 
+set $base01 #252525
 set $base02 #1F242F
 set $base03 #7780a1
 set $base04 #C0C5CE
@@ -176,6 +176,7 @@ bar {
 		urgent_workspace   #2f343a #900000 #ffffff
 		binding_mode       #2f343a #900000 #ffffff
 	}
+	position top
 }
 exec_always feh --bg-scale /home/matt/Pictures/desktop.jpg
 
