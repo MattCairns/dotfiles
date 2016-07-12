@@ -178,6 +178,9 @@ bar {
 	}
 	position top
 }
+
+bindsym $mod+shift+x exec i3lock
+
 exec compton
 exec_always feh --bg-scale /home/matt/Pictures/desktop.jpg
 
