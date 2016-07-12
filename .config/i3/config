@@ -178,6 +178,7 @@ bar {
 	}
 	position top
 }
+exec compton
 exec_always feh --bg-scale /home/matt/Pictures/desktop.jpg
 
 
