@@ -5,7 +5,14 @@ URxvt*font:		xft:Ubuntu Mono derivative Powerline:pixelsize=15,xft:Source Han Sa
 URxvt*boldFont: 	xft:Ubuntu Mono derivative Powerline:pixelsize=15,xft:Source Han Sans KR, Normal:antialias=false
 URxvt*letterSpace: 	0
 URxvt*allow_bold: 	true
-
+! ------------------------------------------------------------------------------
+! ! ROFI Color theme
+! ! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #273238, #273238, #1e2529
+rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff
+rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
+rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
 #define base00 #2d2d2d
 #define base01 #393939
 #define base02 #515151
@@ -49,16 +56,4 @@ URxvt*allow_bold: 	true
 URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: firefox 
 URxvt.matcher.button: 1
-! ------------------------------------------------------------------------------
-! ROFI Color theme
-! User: matt
-! ------------------------------------------------------------------------------
-! Color scheme for normal row
-rofi.color-normal:                   #fdf6e3,#002b36,#eee8d5,#586e75,#eee8d5
-! Color scheme for urgent row
-rofi.color-urgent:                   #fdf6e3,#dc322f,#eee8d5,#dc322f,#fdf6e3
-! Color scheme for active row
-rofi.color-active:                   #fdf6e3,#268bd2,#eee8d5,#268bd2,#fdf6e3
-! Color scheme window
-rofi.color-window:                   #fdf6e3,#002b36
 
