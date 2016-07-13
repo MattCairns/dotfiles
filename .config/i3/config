@@ -182,9 +182,9 @@ bar {
 bindsym $mod+shift+x exec i3lock
 
 #Bindings for volume media keys
-bindsym XF86AudioRaiseVolume exec amixer set Master 2dB+ unmute
-bindsym XF86AudioLowerVolume exec amixer set Master 2dB- unmute
-bindsym XF86AudioMute exec amixer set Master toggle
+bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+ 
+bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%- 
+bindsym XF86AudioMute exec amixer -D pulse sset Master toggle
 
 #Binding to mute mic
 bindsym XF86AudioMicMute exec amixer set Capture toggle
@@ -192,6 +192,9 @@ bindsym XF86AudioMicMute exec amixer set Capture toggle
 #Bindings for screen brightness
 bindsym XF86MonBrightnessUp exec xbacklight -inc 5
 bindsym XF86MonBrightnessDown exec xbacklight -dec 5 
+
+#Swap the escape and capslock keys.
+exec setxkbmap -option caps:swapescape
 
 exec compton
 exec_always feh --bg-scale /home/matt/Pictures/desktop.jpg
