@@ -211,7 +211,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 5
 #Swap the escape and capslock keys.
 exec setxkbmap -option caps:swapescape
 
-exec compton
+exec compton --vsync opengl
 exec_always feh --bg-scale /home/matt/Pictures/desktop.jpg
 
 
