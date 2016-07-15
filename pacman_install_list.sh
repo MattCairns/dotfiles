@@ -1,177 +1,31 @@
 #!/bin/sh
-pacman -S alsa-utils
-pacman -S arandr
-pacman -S aspell
-pacman -S autoconf
-pacman -S automake
-pacman -S bash
-pacman -S binutils
-pacman -S bison
-pacman -S bzip2
-pacman -S cairo-infinality-ultimate
-pacman -S compton
-pacman -S coreutils
-pacman -S cryptsetup
-pacman -S cups
-pacman -S device-mapper
-pacman -S dhcpcd
-pacman -S diffutils
-pacman -S e2fsprogs
-pacman -S epdfview
-pacman -S fakeroot
-pacman -S feh
-pacman -S file
-pacman -S filesystem
-pacman -S findutils
-pacman -S firefox
-pacman -S flex
-pacman -S fontconfig-infinality-ultimate
-pacman -S freetype2-infinality-ultimate
-pacman -S gawk
-pacman -S gcc
-pacman -S gcc-libs
-pacman -S gettext
-pacman -S ghostscript
-pacman -S git
-pacman -S glibc
-pacman -S grep
-pacman -S groff
-pacman -S gsfonts
-pacman -S gzip
-pacman -S htop
-pacman -S i3-wm
-pacman -S i3lock
-pacman -S i3status
-pacman -S inetutils
-pacman -S intel-ucode
-pacman -S iproute2
-pacman -S iputils
-pacman -S jfsutils
-pacman -S less
-pacman -S libtool
-pacman -S licenses
-pacman -S linux
-pacman -S linux-headers
-pacman -S lm_sensors
-pacman -S logrotate
-pacman -S lua
-pacman -S lvm2
-pacman -S m4
-pacman -S make
-pacman -S man-db
-pacman -S man-pages
-pacman -S mdadm
-pacman -S nano
-pacman -S netctl
-pacman -S ntfs-3g
-pacman -S ntp
-pacman -S openssh
-pacman -S pacman
-pacman -S patch
-pacman -S pciutils
-pacman -S pcmciautils
-pacman -S perl
-pacman -S pkg-config
-pacman -S procps-ng
-pacman -S psmisc
-pacman -S pulseaudio
-pacman -S qt4
-pacman -S refind-efi
-pacman -S reiserfsprogs
-pacman -S rofi
-pacman -S ruby
-pacman -S rxvt-unicode
-pacman -S s-nail
-pacman -S screenfetch
-pacman -S scrot
-pacman -S sed
-pacman -S shadow
-pacman -S sudo
-pacman -S sysfsutils
-pacman -S systemd-sysvcompat
-pacman -S tar
-pacman -S tcl
-pacman -S texinfo
-pacman -S thunar
-pacman -S transmission-cli
-pacman -S ttf-symbola
-pacman -S usbutils
-pacman -S util-linux
-pacman -S valgrind
-pacman -S vi
-pacman -S vim
-pacman -S vlc
-pacman -S weechat
-pacman -S wget
-pacman -S which
-pacman -S xf86-input-joystick
-pacman -S xf86-input-keyboard
-pacman -S xf86-input-libinput
-pacman -S xf86-input-mouse
-pacman -S xf86-input-synaptics
-pacman -S xf86-input-vmmouse
-pacman -S xf86-input-void
-pacman -S xf86-video-amdgpu
-pacman -S xf86-video-ark
-pacman -S xf86-video-ati
-pacman -S xf86-video-dummy
-pacman -S xf86-video-fbdev
-pacman -S xf86-video-glint
-pacman -S xf86-video-i128
-pacman -S xf86-video-intel
-pacman -S xf86-video-mach64
-pacman -S xf86-video-neomagic
-pacman -S xf86-video-nouveau
-pacman -S xf86-video-nv
-pacman -S xf86-video-openchrome
-pacman -S xf86-video-r128
-pacman -S xf86-video-savage
-pacman -S xf86-video-siliconmotion
-pacman -S xf86-video-sis
-pacman -S xf86-video-tdfx
-pacman -S xf86-video-trident
-pacman -S xf86-video-vesa
-pacman -S xf86-video-vmware
-pacman -S xf86-video-voodoo
-pacman -S xfsprogs
-pacman -S xorg-docs
-pacman -S xorg-fonts-100dpi
-pacman -S xorg-fonts-75dpi
-pacman -S xorg-iceauth
-pacman -S xorg-luit
-pacman -S xorg-server
-pacman -S xorg-server-devel
-pacman -S xorg-server-xdmx
-pacman -S xorg-server-xephyr
-pacman -S xorg-server-xnest
-pacman -S xorg-server-xvfb
-pacman -S xorg-server-xwayland
-pacman -S xorg-sessreg
-pacman -S xorg-smproxy
-pacman -S xorg-x11perf
-pacman -S xorg-xbacklight
-pacman -S xorg-xcmsdb
-pacman -S xorg-xcursorgen
-pacman -S xorg-xdpyinfo
-pacman -S xorg-xdriinfo
-pacman -S xorg-xev
-pacman -S xorg-xgamma
-pacman -S xorg-xhost
-pacman -S xorg-xinit
-pacman -S xorg-xinput
-pacman -S xorg-xkbevd
-pacman -S xorg-xkbutils
-pacman -S xorg-xkill
-pacman -S xorg-xlsatoms
-pacman -S xorg-xlsclients
-pacman -S xorg-xpr
-pacman -S xorg-xprop
-pacman -S xorg-xrefresh
-pacman -S xorg-xsetroot
-pacman -S xorg-xvinfo
-pacman -S xorg-xwd
-pacman -S xorg-xwininfo
-pacman -S xorg-xwud
-pacman -S yaourt
-pacman -S zip
-pacman -S zsh
+sudo pacman -S gdm
+systemctl enable gdm.service
+sudo pacman -S i3
+sudo pacman -S fprintd
+sudo pacman -S git
+sudo pacman -S termite
+sudo pacman -S firefox
+sudo pacman -S rofi
+sudo pacman -S xf86-input-synaptics
+sudo pacman -S feh
+sudo pacman -S openssh
+sudo pacman -S xorg-utils
+sudo pacman -S compton
+sudo pacman -S acpi
+sudo pacman -S alsa-utils
+sudo pacman -S wget
+#Installs yaourt
+git clone https://aur.archlinux.org/package-query.git
+cd package-query
+makepkg -si
+cd ..
+git clone https://aur.archlinux.org/yaourt.git
+cd yaourt
+makepkg -si
+cd ..
+
+
+yaourt i3-gnome
+yaourt powerline-fonts-git
+yaourt xorg-xbacklight
