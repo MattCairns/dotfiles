@@ -13,3 +13,6 @@
 [submodule ".vim/bundle/vim-latex"]
 	path = .vim/bundle/vim-latex
 	url = git@github.com:vim-latex/vim-latex.git
+[submodule ".vim/bundle/tender.vim"]
+	path = .vim/bundle/tender.vim
+	url = git@github.com:jacoborus/tender.vim.git
