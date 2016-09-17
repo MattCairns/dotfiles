@@ -94,7 +94,7 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-set $workspace1 " Chrome [1]"
+set $workspace1 "1"
 set $workspace9 " Stats [9]"
 set $workspace10 " Music [0]"
 
@@ -122,7 +122,6 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace $workspace9
 bindsym $mod+Shift+0 move container to workspace $workspace10 
 
-assign [class="google-chrome"] $workspace1
 assign [class="glances"] $workspace9
 assign [class="Google Play Music Desktop Player"] $workspace10
 
