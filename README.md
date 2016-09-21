@@ -3,13 +3,12 @@
 
 # Matts Dotfiles
 
-* i3-gaps
+* i3-gaps (A very small gap)
 * i3-bar
 * Tender.vim colorscheme
 * Base-16 Eighties theme (For cmd line)
 * Termite
 
 Here is some screenshots:
-
 ![alt text][terminals]
 ![alt text][desktop]
