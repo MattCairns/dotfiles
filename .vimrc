@@ -9,7 +9,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'jacoborus/tender'
 Plugin 'scrooloose/nerdtree'
 Plugin 'SirVer/ultisnips'
-Plugin 'lervag/vimtex'
+Plugin 'vim-latex/vim-latex'
 Plugin 'vim-airline/vim-airline'
 Plugin 'airblade/vim-gitgutter'
 
@@ -24,6 +24,9 @@ set number
 syntax on
 
 set autoindent
+
+"Airline settings"
+let g:airline_powerline_fonts = 1
 
 "Latex settings"
 set grepprg=grep\ -nH\ $*
