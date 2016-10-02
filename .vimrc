@@ -25,6 +25,15 @@ syntax on
 
 set autoindent
 
+"QOL settings"
+set tabstop=4 shiftwidth=4 expandtab
+syntax on
+set scrolloff=10
+set ttyfast
+set backupdir=~/.vim/backup_files//
+set directory=~/.vim/swap_files//
+set undodir=~/.vim/undo_files//
+
 "Airline settings"
 let g:airline_powerline_fonts = 1
 
@@ -42,10 +51,3 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 "NERDTree settings"
 let g:NERDTreeWinSize=15
 
-"QOL settings"
-syntax on
-set scrolloff=10
-set ttyfast
-set backupdir=~/.vim/backup_files//
-set directory=~/.vim/swap_files//
-set undodir=~/.vim/undo_files//
