@@ -6,20 +6,26 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'jacoborus/tender'
+Plugin 'morhetz/gruvbox'
 Plugin 'scrooloose/nerdtree'
 Plugin 'SirVer/ultisnips'
 Plugin 'vim-latex/vim-latex'
 Plugin 'vim-airline/vim-airline'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'wincent/command-t'
+Plugin 'fatih/vim-go'
+Plugin 'luochen1990/rainbow'
+Plugin 'lifepillar/pgsql.vim'
+Plugin 'ivalkeen/vim-simpledb'
+Plugin 'chriskempson/base16-vim'
+Plugin 'mgor/vim-markdown-grip'
 
-" All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 " " To ignore plugin indent changes, instead use:
 " "filetype plugin on
 
-colorscheme tender
+colorscheme gruvbox
 set number
 syntax on
 
@@ -50,4 +56,15 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 "NERDTree settings"
 let g:NERDTreeWinSize=15
+
+"Enables rainbow brackets"
+let g:rainbow_active = 1 
+
+"Golang sytax highlting settings"
+let g:go_highlight_structs = 1 
+let g:go_highlight_methods = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+
 
